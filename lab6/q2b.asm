@@ -2,14 +2,14 @@
 .data
 fname1	db 'name.txt',0
 handle1	dw ?
-fname2	db	'id.txt',0
+fname2	db 'id.txt',0
 handle2	dw ?
-fname3	db	'splice.txt',0
-handle3	dw	?
+fname3	db 'splice.txt',0
+handle3	dw ?
 
-part1		db	32 dup('$')
-part2		db  32 dup('$')
-len1        db  ?
+part1	db  32 dup('$')
+part2	db  32 dup('$')
+len1    db  ?
 
 .code
 .startup
