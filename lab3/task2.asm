@@ -8,8 +8,8 @@ NEG1   db   ?
 .code
 .startup
 
-    lea si,array1 //0122
-    lea di,NEG1  //012d
+    lea si,array1 
+    lea di,NEG1  
     mov cl,count 
     mov ch,00
     mov ah,00
