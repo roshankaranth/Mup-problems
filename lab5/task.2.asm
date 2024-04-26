@@ -22,7 +22,7 @@ input:
 conversion: 
     sub [si],al
     inc si
-    loopnz x1
+    loopnz conversion
     mov bx,'$'
     mov [si],bx
 
